@@ -7,6 +7,7 @@ def append(head,val):
     node = Node(val)
     cur = head
     while cur.next :
+
         cur = cur.next
     cur.next = node
 for node in ["A","A","D","D","B","B"]:

@@ -12,6 +12,7 @@ def append(head,val):
     node.prev = cur
     return
 def gen(head):
+
     cur = head.next
     while cur:
         yield cur
